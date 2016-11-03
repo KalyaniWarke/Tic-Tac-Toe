@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3250FAE91D9292AE00146AE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3250FAE81D9292AE00146AE0 /* main.m */; };
+		3250FAEC1D9292AE00146AE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3250FAEB1D9292AE00146AE0 /* AppDelegate.m */; };
+		3250FAEF1D9292AE00146AE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3250FAEE1D9292AE00146AE0 /* ViewController.m */; };
+		3250FAF21D9292AE00146AE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3250FAF01D9292AE00146AE0 /* Main.storyboard */; };
+		3250FAF41D9292AE00146AE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3250FAF31D9292AE00146AE0 /* Assets.xcassets */; };
+		3250FAF71D9292AE00146AE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3250FAF51D9292AE00146AE0 /* LaunchScreen.storyboard */; };
+		3250FB021D9292AE00146AE0 /* kwTicTacToeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3250FB011D9292AE00146AE0 /* kwTicTacToeTests.m */; };
+		3250FB0D1D9292AE00146AE0 /* kwTicTacToeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3250FB0C1D9292AE00146AE0 /* kwTicTacToeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3250FAFE1D9292AE00146AE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3250FADC1D9292AE00146AE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3250FAE31D9292AE00146AE0;
+			remoteInfo = kwTicTacToe;
+		};
+		3250FB091D9292AE00146AE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3250FADC1D9292AE00146AE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3250FAE31D9292AE00146AE0;
+			remoteInfo = kwTicTacToe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3250FAE41D9292AE00146AE0 /* kwTicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kwTicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3250FAE81D9292AE00146AE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3250FAEA1D9292AE00146AE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3250FAEB1D9292AE00146AE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3250FAED1D9292AE00146AE0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3250FAEE1D9292AE00146AE0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3250FAF11D9292AE00146AE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3250FAF31D9292AE00146AE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3250FAF61D9292AE00146AE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3250FAF81D9292AE00146AE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3250FAFD1D9292AE00146AE0 /* kwTicTacToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kwTicTacToeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3250FB011D9292AE00146AE0 /* kwTicTacToeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kwTicTacToeTests.m; sourceTree = "<group>"; };
+		3250FB031D9292AE00146AE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3250FB081D9292AE00146AE0 /* kwTicTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kwTicTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3250FB0C1D9292AE00146AE0 /* kwTicTacToeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kwTicTacToeUITests.m; sourceTree = "<group>"; };
+		3250FB0E1D9292AE00146AE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3250FAE11D9292AE00146AE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3250FAFA1D9292AE00146AE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3250FB051D9292AE00146AE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3250FADB1D9292AE00146AE0 = {
+			isa = PBXGroup;
+			children = (
+				3250FAE61D9292AE00146AE0 /* kwTicTacToe */,
+				3250FB001D9292AE00146AE0 /* kwTicTacToeTests */,
+				3250FB0B1D9292AE00146AE0 /* kwTicTacToeUITests */,
+				3250FAE51D9292AE00146AE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3250FAE51D9292AE00146AE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3250FAE41D9292AE00146AE0 /* kwTicTacToe.app */,
+				3250FAFD1D9292AE00146AE0 /* kwTicTacToeTests.xctest */,
+				3250FB081D9292AE00146AE0 /* kwTicTacToeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3250FAE61D9292AE00146AE0 /* kwTicTacToe */ = {
+			isa = PBXGroup;
+			children = (
+				3250FAEA1D9292AE00146AE0 /* AppDelegate.h */,
+				3250FAEB1D9292AE00146AE0 /* AppDelegate.m */,
+				3250FAED1D9292AE00146AE0 /* ViewController.h */,
+				3250FAEE1D9292AE00146AE0 /* ViewController.m */,
+				3250FAF01D9292AE00146AE0 /* Main.storyboard */,
+				3250FAF31D9292AE00146AE0 /* Assets.xcassets */,
+				3250FAF51D9292AE00146AE0 /* LaunchScreen.storyboard */,
+				3250FAF81D9292AE00146AE0 /* Info.plist */,
+				3250FAE71D9292AE00146AE0 /* Supporting Files */,
+			);
+			path = kwTicTacToe;
+			sourceTree = "<group>";
+		};
+		3250FAE71D9292AE00146AE0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3250FAE81D9292AE00146AE0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3250FB001D9292AE00146AE0 /* kwTicTacToeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3250FB011D9292AE00146AE0 /* kwTicTacToeTests.m */,
+				3250FB031D9292AE00146AE0 /* Info.plist */,
+			);
+			path = kwTicTacToeTests;
+			sourceTree = "<group>";
+		};
+		3250FB0B1D9292AE00146AE0 /* kwTicTacToeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3250FB0C1D9292AE00146AE0 /* kwTicTacToeUITests.m */,
+				3250FB0E1D9292AE00146AE0 /* Info.plist */,
+			);
+			path = kwTicTacToeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3250FAE31D9292AE00146AE0 /* kwTicTacToe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3250FB111D9292AE00146AE0 /* Build configuration list for PBXNativeTarget "kwTicTacToe" */;
+			buildPhases = (
+				3250FAE01D9292AE00146AE0 /* Sources */,
+				3250FAE11D9292AE00146AE0 /* Frameworks */,
+				3250FAE21D9292AE00146AE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kwTicTacToe;
+			productName = kwTicTacToe;
+			productReference = 3250FAE41D9292AE00146AE0 /* kwTicTacToe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3250FAFC1D9292AE00146AE0 /* kwTicTacToeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3250FB141D9292AE00146AE0 /* Build configuration list for PBXNativeTarget "kwTicTacToeTests" */;
+			buildPhases = (
+				3250FAF91D9292AE00146AE0 /* Sources */,
+				3250FAFA1D9292AE00146AE0 /* Frameworks */,
+				3250FAFB1D9292AE00146AE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3250FAFF1D9292AE00146AE0 /* PBXTargetDependency */,
+			);
+			name = kwTicTacToeTests;
+			productName = kwTicTacToeTests;
+			productReference = 3250FAFD1D9292AE00146AE0 /* kwTicTacToeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3250FB071D9292AE00146AE0 /* kwTicTacToeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3250FB171D9292AE00146AE0 /* Build configuration list for PBXNativeTarget "kwTicTacToeUITests" */;
+			buildPhases = (
+				3250FB041D9292AE00146AE0 /* Sources */,
+				3250FB051D9292AE00146AE0 /* Frameworks */,
+				3250FB061D9292AE00146AE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3250FB0A1D9292AE00146AE0 /* PBXTargetDependency */,
+			);
+			name = kwTicTacToeUITests;
+			productName = kwTicTacToeUITests;
+			productReference = 3250FB081D9292AE00146AE0 /* kwTicTacToeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3250FADC1D9292AE00146AE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "kalyani Warke";
+				TargetAttributes = {
+					3250FAE31D9292AE00146AE0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					3250FAFC1D9292AE00146AE0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3250FAE31D9292AE00146AE0;
+					};
+					3250FB071D9292AE00146AE0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3250FAE31D9292AE00146AE0;
+					};
+				};
+			};
+			buildConfigurationList = 3250FADF1D9292AE00146AE0 /* Build configuration list for PBXProject "kwTicTacToe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3250FADB1D9292AE00146AE0;
+			productRefGroup = 3250FAE51D9292AE00146AE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3250FAE31D9292AE00146AE0 /* kwTicTacToe */,
+				3250FAFC1D9292AE00146AE0 /* kwTicTacToeTests */,
+				3250FB071D9292AE00146AE0 /* kwTicTacToeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3250FAE21D9292AE00146AE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3250FAF71D9292AE00146AE0 /* LaunchScreen.storyboard in Resources */,
+				3250FAF41D9292AE00146AE0 /* Assets.xcassets in Resources */,
+				3250FAF21D9292AE00146AE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3250FAFB1D9292AE00146AE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3250FB061D9292AE00146AE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3250FAE01D9292AE00146AE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3250FAEF1D9292AE00146AE0 /* ViewController.m in Sources */,
+				3250FAEC1D9292AE00146AE0 /* AppDelegate.m in Sources */,
+				3250FAE91D9292AE00146AE0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3250FAF91D9292AE00146AE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3250FB021D9292AE00146AE0 /* kwTicTacToeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3250FB041D9292AE00146AE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3250FB0D1D9292AE00146AE0 /* kwTicTacToeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3250FAFF1D9292AE00146AE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3250FAE31D9292AE00146AE0 /* kwTicTacToe */;
+			targetProxy = 3250FAFE1D9292AE00146AE0 /* PBXContainerItemProxy */;
+		};
+		3250FB0A1D9292AE00146AE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3250FAE31D9292AE00146AE0 /* kwTicTacToe */;
+			targetProxy = 3250FB091D9292AE00146AE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3250FAF01D9292AE00146AE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3250FAF11D9292AE00146AE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3250FAF51D9292AE00146AE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3250FAF61D9292AE00146AE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3250FB0F1D9292AE00146AE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3250FB101D9292AE00146AE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3250FB121D9292AE00146AE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kwTicTacToe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kalyani.kwTicTacToe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3250FB131D9292AE00146AE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kwTicTacToe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kalyani.kwTicTacToe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3250FB151D9292AE00146AE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kwTicTacToeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kalyani.kwTicTacToeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kwTicTacToe.app/kwTicTacToe";
+			};
+			name = Debug;
+		};
+		3250FB161D9292AE00146AE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kwTicTacToeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kalyani.kwTicTacToeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kwTicTacToe.app/kwTicTacToe";
+			};
+			name = Release;
+		};
+		3250FB181D9292AE00146AE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kwTicTacToeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kalyani.kwTicTacToeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = kwTicTacToe;
+			};
+			name = Debug;
+		};
+		3250FB191D9292AE00146AE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kwTicTacToeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kalyani.kwTicTacToeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = kwTicTacToe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3250FADF1D9292AE00146AE0 /* Build configuration list for PBXProject "kwTicTacToe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3250FB0F1D9292AE00146AE0 /* Debug */,
+				3250FB101D9292AE00146AE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3250FB111D9292AE00146AE0 /* Build configuration list for PBXNativeTarget "kwTicTacToe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3250FB121D9292AE00146AE0 /* Debug */,
+				3250FB131D9292AE00146AE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3250FB141D9292AE00146AE0 /* Build configuration list for PBXNativeTarget "kwTicTacToeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3250FB151D9292AE00146AE0 /* Debug */,
+				3250FB161D9292AE00146AE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3250FB171D9292AE00146AE0 /* Build configuration list for PBXNativeTarget "kwTicTacToeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3250FB181D9292AE00146AE0 /* Debug */,
+				3250FB191D9292AE00146AE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3250FADC1D9292AE00146AE0 /* Project object */;
+}
